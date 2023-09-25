@@ -52,3 +52,17 @@ telegram:
   admins:
     - 6223132130 #管理员id
 ```
+mkdir /root/v2board-bot-plus
+cd /root/v2board-bot-plus
+./v2bot
+
+1. 安装 screen
+    CentOS/RedHat/Fedora下：# yum -y install screen
+
+    Ubuntu/Debian下：# apt-get-y install screen
+
+  screen -S v2bBot
+  /root/v2board-bot-plus/./v2bBot
+
+查看后台
+  screen -ls 
